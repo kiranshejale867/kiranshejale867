@@ -58,28 +58,6 @@ class A
         String str = "12abc20yz68";
         System.out.println(findSum(str));
     }
-}
 
-
-3.Third program
-
-
-class B {
-    public static void main (String[] args) {
-       
-        String str= "Palindrome", nstr="";
-        char ch;
-       
-      System.out.print("Original word: ");
-      System.out.println("Palindrome"); 
-       
-      for (int i=0; i<str.length(); i++)
-      {
-        ch= str.charAt(i); 
-        nstr= ch+nstr;
-      }
-      System.out.println("Reversed word: "+ nstr);
-    }
-} 
 
 
